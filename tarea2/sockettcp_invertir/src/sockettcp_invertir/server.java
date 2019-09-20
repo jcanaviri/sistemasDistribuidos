@@ -32,8 +32,7 @@ public class server {
                 toClient.flush(); // 
                 toClient.println(cadena_invertida);
             }
-        }
-        catch(IOException e){
+        } catch(IOException e){
             System.out.println(e.getMessage());
         }
     }
