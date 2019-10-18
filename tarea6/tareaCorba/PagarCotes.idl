@@ -1,0 +1,7 @@
+
+module PagarCotes {
+    interface pagar{
+        string pagar(in string idCliente);
+        oneway void shutdown();
+    };
+};
